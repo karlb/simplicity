@@ -14,7 +14,7 @@ Dealing with simpler software is more satisfying for me and provides a faster wa
 
 * [This web site itself](web.html)
 * Vim instead of IDE (see [my vim config](https://github.com/karlb/dotfiles/tree/master/.vim))
-* Use [suckless](https://suckless.org/) software on my desktop
+* [Use suckless software on my desktop](suckless-desktop.html)
 * Hacking on a [minimal markdown-like parser](https://github.com/karlb/smu)
 
 ## Inspiration
