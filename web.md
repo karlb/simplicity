@@ -19,7 +19,7 @@ When building files from sources, `make` (or [`mk`](http://doc.cat-v.org/bell_la
 
 ## Downsides
 
-* No `<title>` tag
+* Same `<title>` tag on all pages
 * Current page is not highlighted
 * No "last change" information on each page
 

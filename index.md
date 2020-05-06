@@ -15,10 +15,24 @@ Dealing with simpler software is more satisfying for me and provides a faster wa
 * [This web site itself](web.html)
 * Vim instead of IDE (see [my vim config](https://github.com/karlb/dotfiles/tree/master/.vim))
 * [Use suckless software on my desktop](suckless-desktop.html)
-* Hacking on a [minimal markdown-like parser](https://github.com/karlb/smu)
+* [Hacking on a minimal markdown-like parser](smu.html)
 
 ## Inspiration
 
 * [A Plea for Lean Software](https://inf.ethz.ch/personal/wirth/Articles/LeanSoftware.pdf)
 * [Suckless Philosophy](https://suckless.org/philosophy/)
 * [A Philosophy of Software Design](https://www.goodreads.com/en/book/show/39996759)
+
+## Quotes
+
+Controlling complexity is the essence of computer programming.
+
+-- Brian Kernighan
+
+Simplicity is prerequisite for reliability.
+
+-- Edsger W. Dijkstra
+
+A program is like a poem: you cannot write a poem without writing it. Yet people talk about programming as if it were a production process and measure "programmer productivity" in terms of "number of lines of code produced". In so doing they book that number on the wrong side of the ledger: We should always refer to "the number of lines of code spent".
+
+-- E. W. Dijkstra

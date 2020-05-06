@@ -1,5 +1,5 @@
 
-all: build/index.html build/web.html build/suckless-desktop.html
+all: $(patsubst %.md,build/%.html,$(wildcard *.md))
 
 clean:
 	rm -f build/*
