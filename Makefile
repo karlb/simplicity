@@ -1,5 +1,5 @@
 
-all: $(patsubst %.md,build/%.html,$(wildcard *.md))
+all: $(patsubst content/%.md,build/%.html,$(wildcard content/*.md))
 
 clean:
 	rm -f build/*
@@ -7,7 +7,7 @@ clean:
 watch:
 	 ls | entr make
 
-build/%.html :  %.md template.html template.awk Makefile
+build/%.html :  content/%.md template.html template.awk Makefile
 	./template.awk FNAME=$< template.html > $@
 
 deploy:

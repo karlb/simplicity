@@ -48,7 +48,7 @@
 
 <footer>
 	<small>
-		First written on {{{ git log --pretty='format:%ai' $FILENAME | cut -d ' ' -f1 | tail -1 }}}.
-		Last changed on {{{ git log --pretty='format:%ai' $FILENAME | cut -d ' ' -f1 | head -1 }}}.
+		First written on {{{ git log --follow --pretty='format:%ai' $FILENAME | cut -d ' ' -f1 | tail -1 }}}.
+		Last changed on {{{ git log --follow --pretty='format:%ai' $FILENAME | cut -d ' ' -f1 | head -1 }}}.
 	</small>
 </footer>
