@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Exercises in Simplicity</title>
+	<title>{{{ sed -n '/^# /{s/# //p; q}' $FILENAME }}}</title>
 	<style>
 		body {
 			font-family: sans-serif;
@@ -35,6 +35,7 @@
 
 <nav>
 	<ul>
+		<!-- {{ [[ "$FILENAME" =~ 'index' ]] && echo 'class="active"' }}} -->
 		<li><a href="index.html">Home</a></li>
 		<li><a href="web.html">Web</a></li>
 		<li><a href="suckless-desktop.html">Desktop</a></li>
@@ -42,3 +43,12 @@
 		<li><a href="http://karl.berlin">Contact</a></li>
 	</ul>
 </nav>
+
+{{{ smu $FILENAME }}}
+
+<footer>
+	<small>
+		First written on {{{ git log --pretty='format:%ai' $FILENAME | cut -d ' ' -f1 | tail -1 }}}.
+		Last changed on {{{ git log --pretty='format:%ai' $FILENAME | cut -d ' ' -f1 | head -1 }}}.
+	</small>
+</footer>
